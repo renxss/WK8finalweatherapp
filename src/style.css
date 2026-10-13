@@ -144,6 +144,11 @@ header {
   text-align: center;
 }
 
+.weather-forecast-temperatures {
+  text-align: center;
+  color: #f65282;
+}
+
 
 footer {
   border-top: 1px solid #f9f7fe;
