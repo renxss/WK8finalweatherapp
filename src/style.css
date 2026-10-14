@@ -148,6 +148,12 @@ header {
   text-align: center;
   color: #f65282;
   display: flex;
+  justify-content: center;
+}
+
+.weather-forecast-temperature {
+  padding: 0 10px;
+ 
 }
 
 
