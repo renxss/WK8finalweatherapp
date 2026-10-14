@@ -146,7 +146,7 @@ header {
 }
 
 .weather-forecast-icon {
-  width: 25px;
+  width: 100%;
   text-align: center;
 }
 
