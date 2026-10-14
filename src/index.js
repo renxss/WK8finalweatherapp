@@ -64,7 +64,7 @@ function displayForecast(response) {
   let days = ["Thu","Fri","Sat","Sun","Mon","Tue"];
   let forecastHtml = "";
 
-  days.forEach(function (day) {
+  response.data.daily.forEach(function (day) {
     forecastHtml = 
       forecastHtml + 
       `
