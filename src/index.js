@@ -48,7 +48,14 @@ function handleSearchSubmit(event) {
   searchCity(searchInput.value);
 }
 
-// forecast function 
+// forecast function
+
+function getForecast(city) { 
+  let apiKey = "abtd48d815a54b190coedf704f30b0e3";
+  let apiUrl = `https://api.shecodes.io/weather/v1/forecast?query=${city}&key=${apiKey}&units=metric`;
+  axios.get(apiUrl).then(displayForecast);
+  console.log(apiUrl);
+}
 
 function displayForecast(){
   
@@ -81,6 +88,7 @@ let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", handleSearchSubmit);
 
 searchCity("Sydney");
+getForecast("Sydney");
 displayForecast();
  
 
