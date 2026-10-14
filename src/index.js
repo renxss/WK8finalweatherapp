@@ -51,12 +51,12 @@ function handleSearchSubmit(event) {
 // forecast function 
 
 function displayForecast(){
-  let forecast = document.querySelector("#forecast");
+  let forecastElement = document.querySelector("#forecast");
 
   let days = ["Thu","Fri","Sat","Sun","Mon" ];
   let forecastHtml = "";
 
-  days.forEach(function(day) {
+  days.forEach(function (day) {
     forecastHtml = 
       forecastHtml + 
       `
