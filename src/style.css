@@ -146,8 +146,10 @@ header {
 }
 
 .weather-forecast-icon {
-  width:
-  height:
+  width:48px;
+  height: 48px;
+  display:block;
+  margin: 0 auto;
 
 }
 .weather-forecast-temperatures {
